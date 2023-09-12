@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/playlist-creator/static/css/main.f361cc54.css",
+    "main.js": "/playlist-creator/static/js/main.6f2064cb.js",
+    "index.html": "/playlist-creator/index.html",
+    "main.f361cc54.css.map": "/playlist-creator/static/css/main.f361cc54.css.map",
+    "main.6f2064cb.js.map": "/playlist-creator/static/js/main.6f2064cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f361cc54.css",
+    "static/js/main.6f2064cb.js"
+  ]
+}

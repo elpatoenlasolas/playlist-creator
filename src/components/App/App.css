@@ -1,0 +1,74 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.88rem;
+  color: #000000;
+  margin-left: 50px;
+}
+
+h1 .highlight {
+  color: #ecca41;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+}
+
+.App {
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  margin: 50px auto 50px;
+  background-color: rgba(144, 192, 192, 0.687);
+}
+
+.divider span {
+  font-weight: 900;
+}
